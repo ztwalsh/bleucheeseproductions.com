@@ -1,0 +1,638 @@
+
+body {
+	font-family: helvetica, arial, sans;
+	color: #666;
+	font-size: 13px;
+	line-height: 16px;
+}
+
+
+
+/* ############# CONTAINERS ############# */
+
+/* IDS */
+
+#mainContainer {
+	position: relative;
+	margin: 20px auto;
+	width: 840px;
+	height: auto;
+}
+
+#logoContainer {
+	position: relative;
+	clear: both;
+	width: 220px;
+	height: 57px;
+	height: auto;
+	float: right;
+}
+
+#headlineContainer {
+	position: relative;
+	margin: 50px auto auto 0;
+	width: 575px;
+	height: 50px;
+	background-image: url(../images/designThatWorks.jpg);
+}
+
+#archiveContainer {
+	position: relative;
+	margin: 50px auto auto 0;
+}
+
+#menuContainer {
+	position: relative;
+	text-align: right;
+	clear: both;
+	width: 840px;
+	height: 41px;
+	margin: 40px auto;
+	border-top: solid 1px #CCC;
+	border-bottom: solid 1px #CCC;
+}
+.menuHolder {
+	float:right;
+	margin-top: 3px;
+}
+
+#newworkContainer {
+	position: relative;
+	width: 840px;
+	height: auto;
+}
+
+#capabilitiesContainer {
+	position: relative;
+	clear: both;
+	width: 840px;
+	height: auto;
+}
+
+#servicesContainer {
+	position: relative;
+	clear: both;
+	width: 840px;
+	height: auto;
+}
+
+#estimateContainer  {
+	position: relative;
+	clear: both;
+	width: 840px;
+	height: auto;
+}
+
+#contactContainer {
+	position: relative;
+	clear: both;
+	width: 840px;
+	height: auto;
+	background-image: url(../images/skyline.jpg);
+	background-repeat: no-repeat;
+}
+
+.ie #contactContainer {
+	position: relative;
+	clear: both;
+	width: 840px;
+	height: auto;
+	background-image: url(../images/skyline.jpg);
+	background-repeat: no-repeat;
+}
+
+#bottommenuContainer {
+	position: relative;
+	clear: both;
+	width: 840px;
+	height: auto;
+}
+
+
+
+/* CLASSES */
+
+#newworkRightContainer {
+	position: relative;
+	float: right;
+	width: 550px;
+}
+
+#newworkLeftContainer {
+	position: relative;
+	float: left;
+	width: 260px;
+}
+
+#newworkInnerRightContainer {
+	position: relative;
+	float: right;
+	width: 260px;
+}
+
+#newworkInnerLeftContainer {
+	position: relative;
+	float: left;
+	width: 260px;
+}
+
+
+
+
+#capabilitiesLeftContainer {
+	position: relative;
+	float: left;
+	width: 260px;
+}
+
+#capabilitiesRightContainer {
+	position: relative;
+	float: right;
+	width: 550px;
+}
+
+.ie #capabilitiesRightContainer {
+	position: relative;
+	float: right;
+	width: 520px;
+}
+
+.mainRow {
+	clear: both;
+	width: 840px;
+}
+
+.mainLeft {
+	width: 260px;
+	float: left;
+}
+
+.mainRight {
+	width: 550px;
+	float: right;
+}
+
+#subNav {
+	clear: both;
+}
+
+.one {
+	position: relative;
+	width: 260px;
+	float: left;
+}
+
+.two {
+	position: relative;
+	width: 260px;
+	float: left;
+	margin-left: 30px;
+}
+
+.three {
+	position: relative;
+	width: 260px;
+	float: right;
+}
+
+.threeLeft {
+	position: relative;
+	width: 115px;
+	float: left;
+}
+
+.threeRight {
+	position: relative;
+	width: 115px;
+	float: right;
+}
+
+
+
+
+
+
+#servicesContainer .bigRightContainer {
+	position: relative;
+	float: right;
+	width: 550px;
+}
+
+#servicesContainer .bigLeftContainer {
+	position: relative;
+	float: left;
+	width: 550px;
+}
+
+#servicesContainer .littleRightContainer {
+	position: relative;
+	float: right;
+	width: 260px;
+}
+
+#servicesContainer .littleLeftContainer {
+	position: relative;
+	float: left;
+	width: 260px;
+}
+
+#servicesContainer .innerRightContainer {
+	position: relative;
+	float: right;
+	width: 260px;
+}
+
+#servicesContainer .innerLeftContainer {
+	position: relative;
+	float: left;
+	width: 260px;
+}
+
+
+
+#estimateRightContainer {
+	position: relative;
+	float: right;
+	width: 550px;
+}
+
+#estimateLeftContainer {
+	position: relative;
+	float: left;
+	width: 260px;
+}
+
+#estimateInnerRightContainer {
+	position: relative;
+	float: right;
+	width: 260px;
+}
+
+#estimateInnerLeftContainer {
+	position: relative;
+	float: left;
+	width: 260px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ############# TEXT ############# */
+
+h1 {
+	font-family: helvetica, arial, sans;
+	color: #333;
+	font-size: 50px;
+	font-weight: normal;
+	margin-left: -8px;
+	line-height: 0px;
+}
+
+.ie h1 {
+	font-family: helvetica, arial, sans;
+	color: #333;
+	font-size: 50px;
+	font-weight: normal;
+	margin-left: -8px;
+	line-height: 10px;
+}
+
+h2 {
+	font-family: helvetica, arial, sans;
+	color: #999;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+#archiveContainer h1 span {
+	position: absolute;
+	width: 575px;
+	height: 50px;
+	background-image: url(../images/portfolio.jpg);
+	background-repeat: no-repeat;
+}
+
+
+h3 {
+	font-family: helvetica, arial, sans;
+	color: #333;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+h4 {
+	font-family: helvetica, arial, sans;
+	color: #999;
+	font-size: 16px;
+	font-weight: normal;
+	border-bottom: solid 1px #CCC;
+}
+
+.subHead1 {
+	font-family: helvetica, arial, sans;
+	color: #333;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.subHead2 {
+	display: block;
+	width: 800px;
+	border-bottom: solid 1px #CCC;
+	font-family: helvetica, arial, sans;
+	color: #999;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.errors {
+	font-family: helvetica, arial, sans;
+	color: #F00;
+	font-size: 12px;
+}
+
+#subNav {
+	font-family: helvetica, arial, sans;
+	font-size: 11px;
+	color: #333;
+}
+
+#subNav .noLink {
+	font-family: helvetica, arial, sans;
+	font-size: 11px;
+	color: #CCC;
+}
+
+.legal {
+	font-family: helvetica, arial, sans;
+	color: #999;
+	font-size: 11px;
+	line-height: 16px;
+}
+
+#sddm #selected {
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 9px;
+	background-color: #abda4e;
+	font-family: helvetica, arial, sans;
+	font-size: 13px;
+	width: 150px;
+	text-align: center;
+	color: #FFF;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.light {
+	color: #999;
+}
+
+.warning {
+	font-family: helvetica, arial, sans;
+	color: #F00;
+	font-size: 13px;
+	line-height: 16px;
+	font-weight: normal;
+}
+
+
+
+
+
+/* ############# LINKS ############# */
+
+
+a img {
+	border: none;
+}
+
+
+a {
+	font-family: helvetica, arial, sans;
+	color: #666;
+	text-decoration: underline;
+}
+
+a:hover {
+	font-family: helvetica, arial, sans;
+	color: #abda4e;
+	text-decoration: underline;
+}
+
+.errors a{
+	color: #F00;
+	text-decoration: underline;
+}
+
+.errors a:hover {
+	color: #999;
+	text-decoration: underline;
+}
+
+
+
+/* ############# UNORDERED LISTS ############# */
+
+ ul {
+	list-style: none;
+	margin: 6px auto auto auto;
+}
+
+.ie ul {
+	list-style: none;
+	margin: 0 auto auto 350px;
+}
+
+ul li {
+	float: left;
+	font-size: 10px;
+	margin-left: 2px;
+}
+
+.one ul {
+	list-style: none;
+	margin: 0px auto auto -40px;
+}
+
+.one ul li {
+	float: none;
+	margin-top: 8px;
+	font-size: 13px;
+}
+
+.two ul {
+	list-style: none;
+	margin: 0px auto auto -40px;
+}
+
+.two ul li {
+	float: none;
+	margin-top: 8px;
+	font-size: 13px;
+}
+.three ul {
+	list-style: none;
+	margin: 0px auto auto -40px;
+}
+
+.three ul li {
+	float: none;
+	margin-top: 8px;
+	font-size: 13px;
+}
+
+
+
+
+
+/* ############# FORMS ############# */
+
+#estimateInnerLeftContainer input {
+	width: 240px;
+	border: solid 1px #999;
+	padding: 3px;
+}
+
+#estimateLeftContainer input {
+	width: 240px;
+	border: solid 1px #999;
+	padding: 3px;
+}
+
+#submit input {
+
+}
+
+textarea {
+	width: 248px;
+	height: 171px;
+	border: solid 1px #999;
+	padding: 3px;
+}
+
+
+
+
+
+
+
+
+
+/* ############################################ */
+/* DROP DOWN MENU */
+/* ############################################ */
+
+#sddm {
+	margin: 0;
+	padding: 0;
+}
+
+#sddm li a {
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 9px;
+	font-family: helvetica, arial, sans;
+	font-size: 13px;
+	width: 150px;
+	background-color: #CCC;
+	text-align: center;
+	color: #FFF;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#sddm li a:hover {
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 9px;
+	background-color: #abda4e;
+	font-family: helvetica, arial, sans;
+	font-size: 13px;
+	width: 150px;
+	text-align: center;
+	color: #FFF;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.ie #sddm li a {
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 9px;
+	font-family: helvetica, arial, sans;
+	font-size: 13px;
+	width: 150px;
+	background-color: #CCC;
+	text-align: center;
+	color: #FFF;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.ie #sddm li a:hover {
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 9px;
+	background-color: #abda4e;
+	font-family: helvetica, arial, sans;
+	font-size: 13px;
+	width: 150px;
+	text-align: center;
+	color: #FFF;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#sddm div {
+	position: absolute;
+	visibility: hidden;
+	border-top: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+	border-right: 2px solid #CCC;
+	border-left: 2px solid #CCC;
+	margin-top: 3px;
+	z-index: 1;
+}
+
+	#menuContainer #sddm div a {
+		display: block;
+		padding-top: 10px;
+		padding-bottom: 5px;
+		padding-left: 5px;
+		background-color: #FFF;
+		font-family: helvetica, arial, sans;
+		font-size: 13px;
+		width: 150px;
+		text-align: left;
+		color: #999;
+		font-weight: bold;
+		text-decoration: none;
+		border-bottom: solid 1px #CCC;
+	}
+
+	#menuContainer #sddm div a:hover {
+		display: block;
+		padding-top: 10px;
+		padding-bottom: 5px;
+		padding-left: 5px;
+		background-color: #EEE;
+		font-family: helvetica, arial, sans;
+		font-size: 13px;
+		width: 150px;
+		text-align: left;
+		color: #999;
+		font-weight: bold;
+		text-decoration: none;
+		border-bottom: solid 1px #CCC;
+	}
+
+
